@@ -1,6 +1,5 @@
 import React from "react";
 import todologo from "../../assets/todologo.svg";
-import {AiOutlinePlusCircle} from "react-icons/ai"
 import styles from "./header.module.css";
 
 export default function Header() {
@@ -11,7 +10,8 @@ export default function Header() {
       <form className={styles.newTaskForm}>
         <input type="text" placeholder="add new task" />
         <button>Create Task
-          <AiOutlinePlusCircle size={20}/>
+          </>
+          </>
         </button>
       </form>
     </header>

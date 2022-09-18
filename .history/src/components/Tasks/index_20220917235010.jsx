@@ -17,7 +17,7 @@ export default function Tasks() {
       </header>
 
       <div className={styles.list}>
-    
+
       </div>
     </section>
   );

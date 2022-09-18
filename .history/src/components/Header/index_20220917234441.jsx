@@ -11,7 +11,7 @@ export default function Header() {
       <form className={styles.newTaskForm}>
         <input type="text" placeholder="add new task" />
         <button>Create Task
-          <AiOutlinePlusCircle size={20}/>
+          <AiOutlinePlusCircle/>
         </button>
       </form>
     </header>

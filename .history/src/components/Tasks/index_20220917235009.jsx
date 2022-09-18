@@ -16,8 +16,8 @@ export default function Tasks() {
         </div>
       </header>
 
-      <div className={styles.list}>
-    
+      <div className={styles.}>
+
       </div>
     </section>
   );
