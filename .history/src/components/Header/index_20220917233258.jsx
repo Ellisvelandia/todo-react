@@ -7,9 +7,9 @@ export default function Header() {
     <header className={styles.header}>
       <img src={todologo} alt="" />
 
-      <form className={styles.newTaskForm}>
+      <form >
         <input type="text" placeholder="add new task" />
-        <button>Create Task</button>
+        <button></button>
       </form>
     </header>
   );
